@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix landing page</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="src/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
-</head>
+    <link rel="shortcut icon" href="assets/Netflix-new-icon.png" type="image/png">
+  </head>
 
 <body>
 <header>
@@ -27,12 +29,12 @@
       <img src="assets/deadbg.png" class="bg">
       <div class="content">
         <img src="assets/namedead.png" class="movieTitle">
-        <h4>
-            <span>2018</span>
-            <span><i>16+</i></span>
-            <span>1h55min</span>
-            <span>Ação/Aventura</span>
-        </h4>
+          <h4>
+              <span>2018</span>
+              <span><i>16+</i></span>
+              <span>1h55min</span>
+              <span>Ação/Aventura</span>
+          </h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore laboriosam magni natus quas repellat sequi accusantium illum consectetur, modi iste dolorum quaerat sit beatae amet aliquam pariatur dolorem non. Recusandae.</p>
       <div class="buttons">
         <a href="#"> <i class="fa fa-play" aria-hidden="true"></i> Play</a> 
@@ -40,15 +42,14 @@
       </div>
     
     </div>
-    <a class="play" oneclick="toggleVideo()"><img src="assets/play.png"> Watch Trailer</a>
+    <a class="play" onclick="toggleVideo()"><img src="assets/play.png"> Watch Trailer</a>
     </div>
 
     <div class="trailer">
       <video src="assets/trailerdeadpool.mp4" controls="true"></video>
       <img src="assets/close.png" class="close" onclick="toggleVideo()">
     </div>
-
-    <script src="src/script.js"></script>
-<script src="https://kit.fontawesome.com/1d299e1ca9.js" crossorigin="anonymous"></script>
 </body>
+<script src="src/script.js"></script>
+<script src="https://yagasaki7k.github.io/custom-scripts/font-awesome.js"></script>
 </html>
